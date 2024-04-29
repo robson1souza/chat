@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contav Contabilidade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 100px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .btn-chat {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-chat:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-calculator icon"></i>
+        <h1>Contav Contabilidade</h1>
+        <p>Seu parceiro em soluções contábeis.</p>
+        <a href="#" onclick="openChat()" class="btn-chat">Abrir Chat</a>
+    </div>
+
+    <script>
+        // Função para abrir o chat
+        function openChat() {
+            // Substitua 'seu-identificador' pelo identificador do seu chat no JivoSite
+            window.jivo_api.open({ group_id: 'seu-identificador' });
+        }
+    </script>
+
+    <script src="https://code.jivosite.com/widget/QxVidnpXed" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
